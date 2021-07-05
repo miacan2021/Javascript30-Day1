@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./img.jpg");
+}
+
+
+.keys {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+        height: 100px;
+        width: 100px;
+        border: solid 2px white ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 10px;
+        opacity: 0.5;
+        transition: all 0.5s;
+        cursor: pointer;
+    
+    &.action{
+        height: 120px;
+        width: 120px;
+        opacity: 1;
+        transform: scale(1.1);
+        }
+    }
+    
+.sound{
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+
+kbd{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
